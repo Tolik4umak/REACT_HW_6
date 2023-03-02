@@ -1,0 +1,28 @@
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+
+.user_box{
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.137);
+    border-radius: 0 30px 30px 0;
+    overflow: hidden;
+}
+
+.title{
+    margin-bottom: 20px;
+    color: #ffffff;
+    background: #555555;
+    padding: 10px;
+    margin: -20px -20px 20px;
+}
+
+.users_list{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fill , minmax(200px , 200px));
+    grid-auto-rows: 220px;
+}
